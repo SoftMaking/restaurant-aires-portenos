@@ -1,0 +1,926 @@
+[
+    {
+        "Condimentos": [
+            {
+                "id": 1,
+                "nombre": "Aji color",
+                "cantidad": ["5gr", "10gr"],
+                "precio_unidad": ["100", "170"],
+                "precio_paquete": ["3000", "5100"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Comino molido",
+                "cantidad": ["5gr", "10gr"],
+                "precio_unidad": ["100", "170"],
+                "precio_paquete": ["3000", "5100"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Comino entero",
+                "cantidad": ["4gr"],
+                "precio_unidad": ["100"],
+                "precio_paquete": ["3000"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Oregano entero",
+                "cantidad": ["4gr", "8gr"],
+                "precio_unidad": ["100", "170"],
+                "precio_paquete": ["3000", "5100"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Pimienta molida negra",
+                "cantidad": ["4gr", "8gr"],
+                "precio_unidad": ["100", "170"],
+                "precio_paquete": ["3000", "5100"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Aliño completo",
+                "cantidad": ["5gr", "10gr"],
+                "precio_unidad": ["100", "170"],
+                "precio_paquete": ["3000", "5100"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 7,
+                "nombre": "Laurel",
+                "cantidad": ["5gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 8,
+                "nombre": "Ajo polvo",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 9,
+                "nombre": "Curry",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 10,
+                "nombre": "Merken",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 11,
+                "nombre": "Albahaca",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 12,
+                "nombre": "Jengibre",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 13,
+                "nombre": "Romero",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 14,
+                "nombre": "Eneldo",
+                "cantidad": ["5gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 15,
+                "nombre": "Sesamo blanco",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 16,
+                "nombre": "Canela entera",
+                "cantidad": ["3gr", "6gr"],
+                "precio_unidad": ["190", "300"],
+                "precio_paquete": ["5700", "9000"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 17,
+                "nombre": "Canela molida",
+                "cantidad": ["6gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 30,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 18,
+                "nombre": "Clavo olor",
+                "cantidad": ["3gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 19,
+                "nombre": "Nuez mozcada",
+                "cantidad": ["5gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["4200"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 20,
+                "nombre": "Bicarbonato",
+                "cantidad": ["30gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 21,
+                "nombre": "Chuño",
+                "cantidad": ["60gr"],
+                "precio_unidad": ["300"],
+                "precio_paquete": ["3600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 22,
+                "nombre": "Azucar flor",
+                "cantidad": ["100gr"],
+                "precio_unidad": ["300"],
+                "precio_paquete": ["3600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 23,
+                "nombre": "Maicena",
+                "cantidad": ["100gr"],
+                "precio_unidad": ["300"],
+                "precio_paquete": ["3600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 24,
+                "nombre": "Pasas rubias",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["4200"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 25,
+                "nombre": "Pasas negras",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["300"],
+                "precio_paquete": ["3600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 26,
+                "nombre": "Nueces",
+                "cantidad": ["25gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["5400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 27,
+                "nombre": "Almendras",
+                "cantidad": ["25gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["5400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 28,
+                "nombre": "Mix frutos secos",
+                "cantidad": ["50gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["5400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "Linea de cumpleanos": [
+            {
+                "id": 1,
+                "nombre": "Mostacilla redonda",
+                "cantidad": ["20gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Mostacilla barra",
+                "cantidad": ["20gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Chocolate erizado",
+                "cantidad": ["20gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Coco rallado",
+                "cantidad": ["20gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Chocolate dulce",
+                "cantidad": ["50gr"],
+                "precio_unidad": ["400"],
+                "precio_paquete": ["4800"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Chocolate amargo",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["400"],
+                "precio_paquete": ["4800"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 7,
+                "nombre": "Globos N°9",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["470"],
+                "precio_paquete": ["2820"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 8,
+                "nombre": "Globos N°12",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["900"],
+                "precio_paquete": ["5400"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 9,
+                "nombre": "Velas cumpleaños",
+                "cantidad": ["12 unidades"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 10,
+                "nombre": "Bombillas",
+                "cantidad": ["24 unidades"],
+                "precio_unidad": ["380"],
+                "precio_paquete": ["2280"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 11,
+                "nombre": "Brochetas",
+                "cantidad": ["24 unidades"],
+                "precio_unidad": ["380"],
+                "precio_paquete": ["4560"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 12,
+                "nombre": "Mondadientes",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 13,
+                "nombre": "Bombillas",
+                "cantidad": ["100 unidades"],
+                "precio_unidad": ["600"],
+                "precio_paquete": ["3600"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 14,
+                "nombre": "Cucharas",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["380"],
+                "precio_paquete": ["2280"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 15,
+                "nombre": "Tenedores",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["380"],
+                "precio_paquete": ["2280"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 16,
+                "nombre": "Cuchillos",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["380"],
+                "precio_paquete": ["2280"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+            ,
+            {
+                "id": 17,
+                "nombre": "Platos medianos",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["750"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 18,
+                "nombre": "Platos grandes",
+                "cantidad": ["10 unidades"],
+                "precio_unidad": ["950"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 19,
+                "nombre": "Vasos plasticos",
+                "cantidad": ["50 unidades"],
+                "precio_unidad": ["1750"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 20,
+                "nombre": "Vasos termicos",
+                "cantidad": ["25 unidades"],
+                "precio_unidad": ["1100"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "linea de tostaduria": [
+            {
+                "id": 1,
+                "nombre": "Harina tostada",
+                "cantidad": ["165gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["2700"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Chuchoca",
+                "cantidad": ["165gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["2700"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Avena",
+                "cantidad": ["165gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["2700"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Trigo mote",
+                "cantidad": ["165gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["2700"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Semola",
+                "cantidad": ["90gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["4200"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Maiz curugua",
+                "cantidad": ["90gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["4200"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 7,
+                "nombre": "Yerba mate",
+                "cantidad": ["65gr"],
+                "precio_unidad": ["500"],
+                "precio_paquete": ["3000"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 8,
+                "nombre": "Pan rallado",
+                "cantidad": ["90gr"],
+                "precio_unidad": ["300"],
+                "precio_paquete": ["3600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 9,
+                "nombre": "Te ceylan",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["5040"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 10,
+                "nombre": "Alpiste",
+                "cantidad": ["100gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["2100"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 11,
+                "nombre": "Pancutras",
+                "cantidad": ["100gr"],
+                "precio_unidad": ["550"],
+                "precio_paquete": ["6600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 12,
+                "nombre": "Polvos de hornear",
+                "cantidad": ["30gr"],
+                "precio_unidad": ["180"],
+                "precio_paquete": ["2160"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 13,
+                "nombre": "Lentejas",
+                "cantidad": ["3kg"],
+                "precio_unidad": ["5200"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 14,
+                "nombre": "Arvejas",
+                "cantidad": ["3kg"],
+                "precio_unidad": ["5200"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 15,
+                "nombre": "Garbanzos",
+                "cantidad": ["3kg"],
+                "precio_unidad": ["5200"],
+                "precio_paquete": ["-"],
+                "unidades": 0,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "Encurtidos": [
+            {
+                "id": 1,
+                "nombre": "Aji pulpa",
+                "cantidad": ["90gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Aji salsa",
+                "cantidad": ["90gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Mostaza",
+                "cantidad": ["90gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Pickles",
+                "cantidad": ["140gr"],
+                "precio_unidad": ["490"],
+                "precio_paquete": ["2940"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Aji oro",
+                "cantidad": ["65gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["1500"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Salsa americana",
+                "cantidad": ["140gr"],
+                "precio_unidad": ["490"],
+                "precio_paquete": ["2940"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 7,
+                "nombre": "Chucrut",
+                "cantidad": ["140gr"],
+                "precio_unidad": ["490"],
+                "precio_paquete": ["2940"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 8,
+                "nombre": "Aceitunas",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["490"],
+                "precio_paquete": ["2940"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 9,
+                "nombre": "Peninillo",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["490"],
+                "precio_paquete": ["2940"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 10,
+                "nombre": "Cebollas perlas",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["490"],
+                "precio_paquete": ["2940"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 11,
+                "nombre": "Cebolla escabeche",
+                "cantidad": ["6 unidades"],
+                "precio_unidad": ["400"],
+                "precio_paquete": ["2400"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 12,
+                "nombre": "Aji pulpa",
+                "cantidad": ["180gr"],
+                "precio_unidad": ["450"],
+                "precio_paquete": ["5400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 13,
+                "nombre": "Aceitunas verdes",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["600"],
+                "precio_paquete": ["3600"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 14,
+                "nombre": "Aceitunas con pimenton",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["825"],
+                "precio_paquete": ["4950"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 15,
+                "nombre": "Aceitunas con roccoto",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["825"],
+                "precio_paquete": ["4950"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "Cereales": [
+            {
+                "id": 1,
+                "nombre": "Hojuelas de chocolate",
+                "cantidad": ["25gr"],
+                "precio_unidad": ["200"],
+                "precio_paquete": ["2400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Cereal chocolate",
+                "cantidad": ["25gr"],
+                "precio_unidad": ["200"],
+                "precio_paquete": ["2400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Hojuelas maiz",
+                "cantidad": ["25gr"],
+                "precio_unidad": ["200"],
+                "precio_paquete": ["2400"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "Remedios naturales": [
+            {
+                "id": 1,
+                "nombre": "Pectoral",
+                "cantidad": ["15gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Tizana",
+                "cantidad": ["15gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Manzanilla",
+                "cantidad": ["5gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Oxido de zinc",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Linaza",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Bismuto",
+                "cantidad": ["-"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["4200"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "Manies" :[
+            {
+                "id": 1,
+                "nombre": "Mani confitado",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Mani salado",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Mani salado",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["650"],
+                "precio_paquete": ["3900"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Mani merken",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Mani merken",
+                "cantidad": ["125gr"],
+                "precio_unidad": ["650"],
+                "precio_paquete": ["3900"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Mani tostado",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["250"],
+                "precio_paquete": ["3000"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    },
+    {
+        "Nuevos" :[
+            {
+                "id": 1,
+                "nombre": "Anis estrella",
+                "cantidad": ["10gr"],
+                "precio_unidad": ["300"],
+                "precio_paquete": ["3600"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 2,
+                "nombre": "Chia",
+                "cantidad": ["40gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["2100"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 3,
+                "nombre": "Carne vegetal",
+                "cantidad": ["100gr"],
+                "precio_unidad": ["350"],
+                "precio_paquete": ["2100"],
+                "unidades": 6,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 4,
+                "nombre": "Salsa soya",
+                "cantidad": ["320ml"],
+                "precio_unidad": ["950"],
+                "precio_paquete": ["-"],
+                "unidades": 1,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 5,
+                "nombre": "Charqui",
+                "cantidad": ["20gr"],
+                "precio_unidad": ["690"],
+                "precio_paquete": ["8280"],
+                "unidades": 12,
+                "imagen_url": "/assets/products/default.jpg"
+            },
+            {
+                "id": 6,
+                "nombre": "Vainilla",
+                "cantidad": ["115ml"],
+                "precio_unidad": ["650"],
+                "precio_paquete": ["-"],
+                "unidades": 1,
+                "imagen_url": "/assets/products/default.jpg"
+            }
+        ]
+    }
+]
