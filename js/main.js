@@ -255,8 +255,8 @@ Vue.component('contact-section', {
                                     d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
                                 </path>
                             </svg>&nbsp;Número de contacto</h4>
-                        <p class="mx-3 my-1"><a href="tel:+56966940056" class="font-light">+56 9 6694
-                                0056</a></p>
+                        <p class="mx-3 my-1"><a href="tel:+56912345678" class="font-light">+56 9 1234
+                                5678</a></p>
                     </li>
                     <li class="mb-6">
                         <h4 class="font-medium text-lg my-3 text-light flex items-center"><svg width="20" height="18"
@@ -290,7 +290,7 @@ Vue.component('contact-section', {
                                     d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
                                 </path>
                             </svg>&nbsp;Ubicación</h4>
-                        <p class="mx-3 font-light">Lugar de ubicación</p>
+                        <p class="mx-3 font-light">Altamirano 1595, Valparaíso</p>
                     </li>
 
                     
@@ -299,7 +299,7 @@ Vue.component('contact-section', {
             <div class="mx-auto mapouter mb-3 mx-4">
                 <div class="gmap_canvas px-4"><iframe class="rounded w-11/12 mx-auto" loading="lazy" width="900"
                     height="400" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=22%20norte%201733&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=av%20altamirano%201595&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
                     href="https://www.embedgooglemap.net"></a></div>
             </div>
