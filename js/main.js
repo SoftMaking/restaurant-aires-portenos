@@ -32,6 +32,9 @@ Vue.component('navbar', {
                         <a href="#contact" data-scrollspy="#contact" class="text-base font-medium text-gray-300 hover:text-gray-100">
                         Contacto
                         </a>
+                        <a href="#gallery" data-scrollspy="#gallery" class="text-base font-medium text-gray-300 hover:text-gray-100">
+                        Galería de fotos
+                        </a>
                     </nav>
                     <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0"></div>
                 </div>
@@ -47,6 +50,9 @@ Vue.component('navbar', {
                     </a>
                     <a href="#contact" data-scrollspy="#contact" class="text-base font-medium text-gray-100 hover:text-gray-100 my-2">
                     Contacto
+                    </a>
+                    <a href="#gallery" data-scrollspy="#gallery" class="text-base font-medium text-gray-100 hover:text-gray-100 my-2">
+                    Galería de fotos
                     </a>
                 </div>
             </div>
@@ -87,78 +93,33 @@ Vue.component('slider-section', {
     template: /*html*/ `
     <div id="home" class="img-slider w-screen h-screen">
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover actived"
-            style="background-image:url('assets/bg-2.jpg')">
+            style="background-image:url('assets/bg.jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h1 class="font-semibold text-5xl">Restaurante Aires Porteños</h1>
+                <h1 class="font-semibold text-5xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
                 <p class="my-5 text-lg font-light">Phasellus consequat eu ipsum a convallis. In at porta purus, vel fringilla massa. Sed eleifend maximus est. Suspendisse in malesuada justo. Sed felis mauris, dictum id mollis eget, tincidunt ac odio. Ut pulvinar feugiat interdum. Sed pharetra metus ac purus hendrerit porta.</p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/banners/alinos_y_especias.jpg')">
+            style="background-image:url('assets/bg.jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Aliños y especias</h2>
-                <p class="mb-5 text-lg font-light">Trabajamos gran variedad de aliños y especias para que 
-                pueda utilizar en cada una de sus preparaciones e incluso nuevos sabores para que pueda 
-                experimentar en cada comida.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
+                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/banners/decoracion_torta.jpg')">
+            style="background-image:url('assets/bg.jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Decoración torta</h2>
-                <p class="mb-5 text-lg font-light">Con nuestros productos de repostería podrás preparar deliciosas tortas, 
-                postres y bizcochos. Su excelente calidad les permite ser un gran aporte para el sabor y presentación de 
-                diversas recetas.</p>
-            </div>
-        </div>
-        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/banners/frutossecos_y_manies.jpg')">
-            <span class="w-full h-full absolute opacity-50 bg-black"></span>
-            <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Frutos secos y manies</h2>
-                <p class="mb-5 text-lg font-light">Los Frutos Secos pueden degustarse solos o como acompañamiento 
-                en diferentes preparaciones. Sus sabores y texturas permiten generar diferentes sensaciones en un 
-                mismo plato, además de otorgar beneficios para la salud, convirtiéndolos en un ingrediente fundamental 
-                en la alimentación balanceada.</p>
-            </div>
-        </div>
-        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/banners/grupo_encurtidos.jpg')">
-            <span class="w-full h-full absolute opacity-50 bg-black"></span>
-            <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Grupo encurtidos</h2>
-                <p class="mb-5 text-lg font-light">Los encurtidos son un producto clásico en todas las 
-                mesas vegetales, otorgando un sabor característico utilizado en la gastronomía de muchos 
-                países, entre los que se encuentra Chile obviamente. En esta página podrás cotizar todos 
-                los encurtidos que tenemos a su disposición.</p>
-            </div>
-        </div>
-        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/banners/linea_tostaduria.jpg')">
-            <span class="w-full h-full absolute opacity-50 bg-black"></span>
-            <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Línea tostaduría</h2>
-                <p class="mb-5 text-lg font-light">Trabajamos los mejores productos tostados, confitadas, semillas y 
-                granos para llevarlos a su mesa.</p>
-            </div>
-        </div>
-        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/banners/grupo_fiesta.jpg')">
-            <span class="w-full h-full absolute opacity-50 bg-black"></span>
-            <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Grupo fiesta</h2>
-                <p class="mb-5 text-lg font-light">Tenemos todo lo que necesita para hacer su celebración más entretenida.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
+                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
             </div>
         </div>
         <div class="navigation">
             <button class="btn actived"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
-            <button class="btn"></button>
             <button class="btn"></button>
             <button class="btn"></button>
         </div>
@@ -197,7 +158,7 @@ Vue.component('hero-section', {
 
 Vue.component('about-section', {
     template: /*html*/ `
-        <div id="about-us" class="mx-auto bg-blue-800 py-12 scrollspy">
+        <div id="about-us" class="mx-auto bg-blue-400 py-12 scrollspy">
             <h1 class="font-medium text-3xl md:text-5xl text-gray-100 text-center pb-8">¿Quiénes Somos?</h1>
             <div class="relative">
                 <div class="line-onside grid items-center text-center gap-4 w-screen pb-8">
@@ -212,7 +173,7 @@ Vue.component('about-section', {
 });
 Vue.component('menu-section', {
     template: /*html*/ `
-        <div id="our-menu" class="mx-auto bg-gray-800 py-12 scrollspy">
+        <div id="our-menu" class="mx-auto bg-gray-700 py-12 scrollspy">
             <h1 class="font-medium text-3xl md:text-5xl text-gray-100 text-center pb-8">Nuestro menú</h1>
             <div class="relative">
                 <div class="line-onside grid items-center text-center gap-4 w-screen pb-8">
@@ -234,7 +195,7 @@ Vue.component('menu-section', {
 
 Vue.component('contact-section', {
     template: /*html*/ `
-        <div id="contact" class="mx-auto bg-gray-100 text-gray-800 py-12 scrollspy">
+        <div id="contact" class="mx-auto bg-green-200 text-gray-800 py-12 scrollspy">
             <h1 class="font-medium text-3xl md:text-5xl text-center pb-8">Contacto</h1>
             <div class="relative">
                 <div class="line-onside-dark grid items-center text-center gap-4 w-screen pb-8">
@@ -307,10 +268,120 @@ Vue.component('contact-section', {
     `
 });
 
+Vue.component('gallery-section', {
+    template: /*html*/ `
+        <div id="gallery" class="mx-auto py-12 scrollspy bg-gray-100">
+            <h1 class="font-medium text-3xl md:text-5xl text-center pb-8">Galería de fotos</h1>
+            <div class="relative">
+                <div class="line-onside-dark grid items-center text-center gap-4 w-screen pb-8 mx-auto">
+                    <span class="text-gray-800 uppercase tracking-widest">Aires Porteños</span>
+                </div>
+            </div>
+            <div class="container mx-auto px-8 md:px-24 text-center">
+                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-800">Cras nisl mauris,
+                    varius et augue sit amet, laoreet lobortis magna. Aliquam lacinia mauris in diam facilisis lobortis.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
+                    molestie, erat eget faucibus rhoncus, quam felis malesuada elit, eget suscipit augue ex non nibh.
+                </p>
+            </div>
+            <div class="gallery-section">
+                <div class="inner-width">
+                    <div class="gallery">
+                        <a href="assets/imgs/IMG_(1).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(1).jpg" alt="Imagen 1">
+                        </a>
+                        <a href="assets/imgs/IMG_(2).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(2).jpg" alt="Imagen 2">
+                        </a>
+                        <a href="assets/imgs/IMG_(3).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(3).jpg" alt="Imagen 3">
+                        </a>
+                        <a href="assets/imgs/IMG_(4).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(4).jpg" alt="Imagen 4">
+                        </a>
+                        <a href="assets/imgs/IMG_(5).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(5).jpg" alt="Imagen 5">
+                        </a>
+                        <a href="assets/imgs/IMG_(6).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(6).jpg" alt="Imagen 6">
+                        </a>
+                        <a href="assets/imgs/IMG_(7).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(7).jpg" alt="Imagen 7">
+                        </a>
+                        <a href="assets/imgs/IMG_(9).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(9).jpg" alt="Imagen 9">
+                        </a>
+                        <a href="assets/imgs/IMG_(8).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(8).jpg" alt="Imagen 8">
+                        </a>
+                        <a href="assets/imgs/IMG_(11).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(11).jpg" alt="Imagen 11">
+                        </a>
+                        <a href="assets/imgs/IMG_(13).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(13).jpg" alt="Imagen 13">
+                        </a>
+                        <a href="assets/imgs/IMG_(14).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(14).jpg" alt="Imagen 14">
+                        </a>
+                        <a href="assets/imgs/IMG_(15).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(15).jpg" alt="Imagen 15">
+                        </a>
+                        <a href="assets/imgs/IMG_(16).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(16).jpg" alt="Imagen 16">
+                        </a>
+                        <a href="assets/imgs/IMG_(17).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(17).jpg" alt="Imagen 17">
+                        </a>
+                        <a href="assets/imgs/IMG_(18).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(18).jpg" alt="Imagen 18">
+                        </a>
+                        <a href="assets/imgs/IMG_(19).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(19).jpg" alt="Imagen 19">
+                        </a>
+                        <a href="assets/imgs/IMG_(20).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(20).jpg" alt="Imagen 20">
+                        </a>
+                        <a href="assets/imgs/IMG_(21).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(21).jpg" alt="Imagen 21">
+                        </a>
+                        <a href="assets/imgs/IMG_(22).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(22).jpg" alt="Imagen 22">
+                        </a>
+                        <a href="assets/imgs/IMG_(12).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(12).jpg" alt="Imagen 12">
+                        </a>
+                        <a href="assets/imgs/IMG_(23).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(23).jpg" alt="Imagen 23">
+                        </a>
+                        <a href="assets/imgs/IMG_(24).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(24).jpg" alt="Imagen 24">
+                        </a>
+                        <a href="assets/imgs/IMG_(25).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(25).jpg" alt="Imagen 25">
+                        </a>
+                        <a href="assets/imgs/IMG_(26).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(26).jpg" alt="Imagen 26">
+                        </a>
+                        <a href="assets/imgs/IMG_(27).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(27).jpg" alt="Imagen 27">
+                        </a>
+                        <a href="assets/imgs/IMG_(28).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(28).jpg" alt="Imagen 28">
+                        </a>
+                        <a href="assets/imgs/IMG_(10).jpg" class="image">
+                            <img loading="lazy" src="assets/imgs/IMG_(10).jpg" alt="Imagen 10">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `,
+});
+
 Vue.component('footer-section', {
     template: /*html*/ `
         <footer>
-            <div class="bg-gray-800 text-center text-gray-100 py-4">
+            <div class="bg-gray-700 text-center text-gray-100 py-4">
                 <div class="container mx-auto flex md:flew-col mb-4">
                     <div class="flex items-center flex-col md:flex-row w-3/5">
                         <div class="mb-3">
@@ -327,6 +398,7 @@ Vue.component('footer-section', {
                             <li class="font-regular text-sm mb-2"><a href="#about-us" data-scrollspy="#about-us" class="text-gray-100 hover:text-gray-300">Quiénes Somos</a></li>
                             <li class="font-regular text-sm mb-2"><a href="#our-menu" data-scrollspy="#our-menu" class="text-gray-100 hover:text-gray-300">Nuestro menú</a></li>
                             <li class="font-regular text-sm mb-2"><a href="#contact" data-scrollspy="#contact" class="text-gray-100 hover:text-gray-300">Contacto</a></li>
+                            <li class="font-regular text-sm mb-2"><a href="#gallery" data-scrollspy="#gallery" class="text-gray-100 hover:text-gray-300">Galería de fotos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -353,5 +425,5 @@ new Vue({
     data: {},
     computed: {},
     methods: {},
-    mounted() {},
+    mounted() { },
 });
