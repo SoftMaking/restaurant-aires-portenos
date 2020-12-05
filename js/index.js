@@ -54,7 +54,30 @@ repeat();
 $(".gallery").magnificPopup({
     delegate: 'a',
     type: 'image',
-    gallery:{
-      enabled: true
+    gallery: {
+        enabled: true
     }
-  });
+});
+
+$(function () {
+    $(".image").slice(0, 4).show();
+    $("body").on('click touchstart', '.load-more', function (e) {
+        e.preventDefault();
+        $(".image:hidden").slice(0, 24).slideDown("slow");;
+        if ($(".image:hidden").length == 0) {
+            $(".load-more").hide();
+            $(".load-less").show();
+        }
+        $('html,body').animate({
+            scrollTop: $(".gallery-section").offset().top
+        }, 500);
+    });
+    $("body").on('click touchstart', '.load-less', function (e) {
+        e.preventDefault();
+        $(".image").slice(4, 28).slideUp("slow");
+        if ($(".image").length == 28) {
+            $(".load-less").hide();
+            $(".load-more").show();
+        }
+    });
+});

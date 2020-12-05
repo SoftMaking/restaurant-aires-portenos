@@ -7,17 +7,17 @@ body {
 }
 
 body::-webkit-scrollbar-track {
-    border: 1px solid #3f62ff;
+    border: 1px solid #2e3642;
     background-color: #F5F5F5;
 }
 
 body::-webkit-scrollbar {
     width: 10px;
-    background-color: #3f62ff;
+    background-color: #2e3642;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #3f62ff;
+    background-color: #2e3642;
 }
 
 h1, h2, h3, h4, h5 {
@@ -222,7 +222,7 @@ h1, h2, h3, h4, h5 {
 
 .gallery-section .gallery{
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -230,6 +230,10 @@ h1, h2, h3, h4, h5 {
     flex: 25%;
     overflow: hidden;
     cursor: pointer;
+}
+
+.gallery-section .image, .load-less {
+    display: none;
 }
 
 .gallery-section .image img{

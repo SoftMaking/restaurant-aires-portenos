@@ -93,7 +93,7 @@ Vue.component('slider-section', {
     template: /*html*/ `
     <div id="home" class="img-slider w-screen h-screen">
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover actived"
-            style="background-image:url('assets/bg.jpg')">
+            style="background-image:url('assets/slider/IMG_(1).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
                 <h1 class="font-semibold text-5xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
@@ -101,7 +101,7 @@ Vue.component('slider-section', {
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/bg.jpg')">
+            style="background-image:url('assets/slider/IMG_(2).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
                 <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
@@ -110,7 +110,34 @@ Vue.component('slider-section', {
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
-            style="background-image:url('assets/bg.jpg')">
+            style="background-image:url('assets/slider/IMG_(3).jpg')">
+            <span class="w-full h-full absolute opacity-50 bg-black"></span>
+            <div class="info flex h-screen justify-center items-center text-center text-white">
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
+                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+            </div>
+        </div>
+        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
+            style="background-image:url('assets/slider/IMG_(4).jpg')">
+            <span class="w-full h-full absolute opacity-50 bg-black"></span>
+            <div class="info flex h-screen justify-center items-center text-center text-white">
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
+                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+            </div>
+        </div>
+        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
+            style="background-image:url('assets/slider/IMG_(5).jpg')">
+            <span class="w-full h-full absolute opacity-50 bg-black"></span>
+            <div class="info flex h-screen justify-center items-center text-center text-white">
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
+                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
+                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+            </div>
+        </div>
+        <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
+            style="background-image:url('assets/slider/IMG_(6).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
                 <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
@@ -120,6 +147,9 @@ Vue.component('slider-section', {
         </div>
         <div class="navigation">
             <button class="btn actived"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
+            <button class="btn"></button>
             <button class="btn"></button>
             <button class="btn"></button>
         </div>
@@ -195,7 +225,7 @@ Vue.component('menu-section', {
 
 Vue.component('contact-section', {
     template: /*html*/ `
-        <div id="contact" class="mx-auto bg-green-200 text-gray-800 py-12 scrollspy">
+        <div id="contact" class="relative mx-auto text-gray-800 py-12 scrollspy bg-cover bg-opacity-50 bg-green-100 " style="/*background:url('https://images.unsplash.com/photo-1574111877638-7a317ab18f50?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;background-size: cover;*/">
             <h1 class="font-medium text-3xl md:text-5xl text-center pb-8">Contacto</h1>
             <div class="relative">
                 <div class="line-onside-dark grid items-center text-center gap-4 w-screen pb-8">
@@ -287,91 +317,93 @@ Vue.component('gallery-section', {
             <div class="gallery-section">
                 <div class="inner-width">
                     <div class="gallery">
-                        <a href="assets/imgs/IMG_(1).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(1).jpg" alt="Imagen 1">
+                        <a href="assets/gallery/IMG_(1).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(1).jpg" alt="Imagen 1">
                         </a>
-                        <a href="assets/imgs/IMG_(2).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(2).jpg" alt="Imagen 2">
+                        <a href="assets/gallery/IMG_(2).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(2).jpg" alt="Imagen 2">
                         </a>
-                        <a href="assets/imgs/IMG_(3).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(3).jpg" alt="Imagen 3">
+                        <a href="assets/gallery/IMG_(3).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(3).jpg" alt="Imagen 3">
                         </a>
-                        <a href="assets/imgs/IMG_(4).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(4).jpg" alt="Imagen 4">
+                        <a href="assets/gallery/IMG_(4).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(4).jpg" alt="Imagen 4">
                         </a>
-                        <a href="assets/imgs/IMG_(5).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(5).jpg" alt="Imagen 5">
+                        <a href="assets/gallery/IMG_(5).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(5).jpg" alt="Imagen 5">
                         </a>
-                        <a href="assets/imgs/IMG_(6).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(6).jpg" alt="Imagen 6">
+                        <a href="assets/gallery/IMG_(6).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(6).jpg" alt="Imagen 6">
                         </a>
-                        <a href="assets/imgs/IMG_(7).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(7).jpg" alt="Imagen 7">
+                        <a href="assets/gallery/IMG_(7).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(7).jpg" alt="Imagen 7">
                         </a>
-                        <a href="assets/imgs/IMG_(9).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(9).jpg" alt="Imagen 9">
+                        <a href="assets/gallery/IMG_(9).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(9).jpg" alt="Imagen 9">
                         </a>
-                        <a href="assets/imgs/IMG_(8).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(8).jpg" alt="Imagen 8">
+                        <a href="assets/gallery/IMG_(8).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(8).jpg" alt="Imagen 8">
                         </a>
-                        <a href="assets/imgs/IMG_(11).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(11).jpg" alt="Imagen 11">
+                        <a href="assets/gallery/IMG_(11).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(11).jpg" alt="Imagen 11">
                         </a>
-                        <a href="assets/imgs/IMG_(13).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(13).jpg" alt="Imagen 13">
+                        <a href="assets/gallery/IMG_(13).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(13).jpg" alt="Imagen 13">
                         </a>
-                        <a href="assets/imgs/IMG_(14).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(14).jpg" alt="Imagen 14">
+                        <a href="assets/gallery/IMG_(14).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(14).jpg" alt="Imagen 14">
                         </a>
-                        <a href="assets/imgs/IMG_(15).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(15).jpg" alt="Imagen 15">
+                        <a href="assets/gallery/IMG_(15).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(15).jpg" alt="Imagen 15">
                         </a>
-                        <a href="assets/imgs/IMG_(16).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(16).jpg" alt="Imagen 16">
+                        <a href="assets/gallery/IMG_(16).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(16).jpg" alt="Imagen 16">
                         </a>
-                        <a href="assets/imgs/IMG_(17).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(17).jpg" alt="Imagen 17">
+                        <a href="assets/gallery/IMG_(17).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(17).jpg" alt="Imagen 17">
                         </a>
-                        <a href="assets/imgs/IMG_(18).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(18).jpg" alt="Imagen 18">
+                        <a href="assets/gallery/IMG_(18).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(18).jpg" alt="Imagen 18">
                         </a>
-                        <a href="assets/imgs/IMG_(19).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(19).jpg" alt="Imagen 19">
+                        <a href="assets/gallery/IMG_(19).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(19).jpg" alt="Imagen 19">
                         </a>
-                        <a href="assets/imgs/IMG_(20).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(20).jpg" alt="Imagen 20">
+                        <a href="assets/gallery/IMG_(20).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(20).jpg" alt="Imagen 20">
                         </a>
-                        <a href="assets/imgs/IMG_(21).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(21).jpg" alt="Imagen 21">
+                        <a href="assets/gallery/IMG_(21).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(21).jpg" alt="Imagen 21">
                         </a>
-                        <a href="assets/imgs/IMG_(22).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(22).jpg" alt="Imagen 22">
+                        <a href="assets/gallery/IMG_(22).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(22).jpg" alt="Imagen 22">
                         </a>
-                        <a href="assets/imgs/IMG_(12).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(12).jpg" alt="Imagen 12">
+                        <a href="assets/gallery/IMG_(12).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(12).jpg" alt="Imagen 12">
                         </a>
-                        <a href="assets/imgs/IMG_(23).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(23).jpg" alt="Imagen 23">
+                        <a href="assets/gallery/IMG_(23).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(23).jpg" alt="Imagen 23">
                         </a>
-                        <a href="assets/imgs/IMG_(24).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(24).jpg" alt="Imagen 24">
+                        <a href="assets/gallery/IMG_(24).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(24).jpg" alt="Imagen 24">
                         </a>
-                        <a href="assets/imgs/IMG_(25).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(25).jpg" alt="Imagen 25">
+                        <a href="assets/gallery/IMG_(25).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(25).jpg" alt="Imagen 25">
                         </a>
-                        <a href="assets/imgs/IMG_(26).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(26).jpg" alt="Imagen 26">
+                        <a href="assets/gallery/IMG_(26).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(26).jpg" alt="Imagen 26">
                         </a>
-                        <a href="assets/imgs/IMG_(27).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(27).jpg" alt="Imagen 27">
+                        <a href="assets/gallery/IMG_(27).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(27).jpg" alt="Imagen 27">
                         </a>
-                        <a href="assets/imgs/IMG_(28).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(28).jpg" alt="Imagen 28">
+                        <a href="assets/gallery/IMG_(28).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(28).jpg" alt="Imagen 28">
                         </a>
-                        <a href="assets/imgs/IMG_(10).jpg" class="image">
-                            <img loading="lazy" src="assets/imgs/IMG_(10).jpg" alt="Imagen 10">
+                        <a href="assets/gallery/IMG_(10).jpg" class="image">
+                            <img loading="lazy" src="assets/gallery/IMG_(10).jpg" alt="Imagen 10">
                         </a>
                     </div>
+                    <button class="load-more text-white w-full block bg-gray-400 hover:bg-gray-700 py-3 px-12 mx-auto my-8 inline-block text-xl uppercase rounded-sm">Ver más</button>
+                    <button class="load-less text-white w-full block bg-gray-400 hover:bg-gray-700 py-3 px-12 mx-auto my-8 inline-block text-xl uppercase rounded-sm">Ver menos</button>
                 </div>
             </div>
         </div>
