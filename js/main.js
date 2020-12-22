@@ -96,53 +96,68 @@ Vue.component('slider-section', {
             style="background-image:url('assets/slider/IMG_(1).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h1 class="font-semibold text-5xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-                <p class="my-5 text-lg font-light">Phasellus consequat eu ipsum a convallis. In at porta purus, vel fringilla massa. Sed eleifend maximus est. Suspendisse in malesuada justo. Sed felis mauris, dictum id mollis eget, tincidunt ac odio. Ut pulvinar feugiat interdum. Sed pharetra metus ac purus hendrerit porta.</p>
+                <h1 class="font-semibold text-5xl">AIRES PORTEÑOS</h1>
+                <p class="my-5 text-lg font-light">Sea cautivado por la verdadera experiencia porteña: ideal para aquellos sibaritas que buscan calidad y abundancia.</p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
             style="background-image:url('assets/slider/IMG_(2).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
-                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Nuestro acogedor establecimiento le ofrece una experiencia única:</h2>
+                <p class="mb-5 text-lg font-light">Una completa carta de mariscos, pescados y carnes para disfrutar mientras goza de la asombrosa vista 
+                al mar de Valparaíso en nuestro amplio salón.</p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
             style="background-image:url('assets/slider/IMG_(3).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
-                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Así como el mar cautivó al célebre poeta, nuestro menú recoge la inspiración de las aguas chilenas.</h2>
+                <p class="mb-5 text-lg font-light">“Déjanos
+                cosechar la infinita
+                plantación de tus vidas,
+                tus trigos y tus uvas,
+                tus bueyes, tus metales,
+                el esplendor mojado
+                y el fruto sumergido.”
+                Pablo Neruda, Oda al mar.
+                </p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
             style="background-image:url('assets/slider/IMG_(4).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
-                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Trabajamos en pos de su comodidad y deleite.</h2>
+                <p class="mb-5 text-lg font-light">La atención dedicada y detallista de todo el personal es uno de los fundamentos de nuestra ética laboral. Nada nos interesa más 
+                que hacer de nuestro establecimiento un lugar para que usted disfrute de la experiencia que brindamos.</p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
             style="background-image:url('assets/slider/IMG_(5).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
-                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Los platos tradicionales de la cocina porteña le esperan.</h2>
+                <p class="mb-5 text-lg font-light">“y al descubierto queda
+                entonces
+                el racimo del mar,
+                el congrio tierno
+                reluce
+                ya desnudo,
+                preparado
+                para nuestro apetito.”
+                Pablo Neruda, Oda al caldillo de congrio.
+                </p>
             </div>
         </div>
         <div class="slide absolute top-0 w-full h-full bg-center bg-cover"
             style="background-image:url('assets/slider/IMG_(6).jpg')">
             <span class="w-full h-full absolute opacity-50 bg-black"></span>
             <div class="info flex h-screen justify-center items-center text-center text-white">
-                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="mb-5 text-lg font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt minus dolore illum eaque autem quis, blanditiis
-                laborum libero! Accusantium delectus explicabo similique quia nobis illum aliquid optio reiciendis cumque commodi.</p>
+                <h2 class="my-5 text-3xl md:text-5xl font-regular capitalize">Disfrute de la costanera porteña.</h2>
+                <p class="mb-5 text-lg font-light">Alejado del ajetreo citadino, usted podrá relajarse luego de un día de playa en las costas cercanas -entre las 
+                cuales nuestro establecimiento se propone como punto de reunión-y se deleitará con un ambiente íntimo, afable y exquisito.</p>
             </div>
         </div>
         <div class="navigation">
@@ -196,7 +211,10 @@ Vue.component('about-section', {
                 </div>
             </div>
             <div class="container mx-auto px-8 md:px-24">
-                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-100">Cras nisl mauris, varius et augue sit amet, laoreet lobortis magna. Aliquam lacinia mauris in diam facilisis lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut molestie, erat eget faucibus rhoncus, quam felis malesuada elit, eget suscipit augue ex non nibh. </p>
+                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-100">En la zona costera de Valparaíso se 
+                encuentra Aires Porteños. Influenciado por su enclave, el restaurante se especializa en mariscos y pescados. Sienta el placer 
+                de ser arrullado por los músicos de puerto que abundan en la zona, mientras saborea nuestra gustosa comida tradicional y se 
+                deleita con la vastedad del océano frente a usted.</p>
             </div>
         </div>
     `,
@@ -211,10 +229,11 @@ Vue.component('menu-section', {
                 </div>
             </div>
             <div class="container mx-auto px-8 md:px-24 text-center">
-                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-100">Cras nisl mauris,
-                    varius et augue sit amet, laoreet lobortis magna. Aliquam lacinia mauris in diam facilisis lobortis.
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
-                    molestie, erat eget faucibus rhoncus, quam felis malesuada elit, eget suscipit augue ex non nibh.
+                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-100">Siempre privilegiando la frescura y 
+                nobleza de nuestros ingredientes, nos preocupamos por ofrecerle una experiencia que encante a quien nos visite. Saboree 
+                los platos inspirados en la comida tradicional portuaria como la reineta frita o el caldillo de congrio. Si busca, en cambio, 
+                platos de un refinamiento exquisito le recomendamos las sugerencias del chef: el salmón marinado en finas hierbas o el 
+                congrio san valentín seducen a los sibaritas más exigentes.
                 </p>
                 <a href="https://www.airesportenosrestaurant.cl/menuairespotenos.pdf" target="_blank"
                     class="bg-gray-200 hover:bg-gray-300 py-3 px-12 mx-auto my-8 inline-block text-xl uppercase rounded-sm">Ver Menú</a>
@@ -233,9 +252,7 @@ Vue.component('contact-section', {
                 </div>
             </div>
             <div class="container mx-auto px-8 md:px-24">
-                <p class="font-medium text-md text-justify md:text-center md:text-lg mb-8">Cras nisl mauris,
-                varius et augue sit amet, laoreet lobortis magna. Aliquam lacinia mauris in diam facilisis lobortis.
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p class="font-medium text-md text-justify md:text-center md:text-lg mb-8">Medios por los cuales nos puede contactar:</p>
                 <ul class="text-left list-none">
                     <li class="mb-6">
                         <h4 class="font-medium text-lg my-3 text-light flex items-center"><svg width="20" height="18"
@@ -308,10 +325,10 @@ Vue.component('gallery-section', {
                 </div>
             </div>
             <div class="container mx-auto px-8 md:px-24 text-center">
-                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-800">Cras nisl mauris,
-                    varius et augue sit amet, laoreet lobortis magna. Aliquam lacinia mauris in diam facilisis lobortis.
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut
-                    molestie, erat eget faucibus rhoncus, quam felis malesuada elit, eget suscipit augue ex non nibh.
+                <p class="font-medium text-md text-justify md:text-center md:text-lg text-gray-800">Nuestra comida no es 
+                solo abundante y deliciosa, también la presentación de nuestros platos le sorprenderán. En Aires Porteños 
+                cuidamos hasta el último detalle: desde los ingredientes de primera calidad que ofrecemos, hasta la forma 
+                en que los servimos en su mesa.
                 </p>
             </div>
             <div class="gallery-section">
