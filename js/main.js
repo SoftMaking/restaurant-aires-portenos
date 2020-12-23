@@ -235,7 +235,7 @@ Vue.component('menu-section', {
                 platos de un refinamiento exquisito le recomendamos las sugerencias del chef: el salmón marinado en finas hierbas o el 
                 congrio san valentín seducen a los sibaritas más exigentes.
                 </p>
-                <a href="https://www.airesportenosrestaurant.cl/menuairespotenos.pdf" target="_blank"
+                <a href="https://www.airesportenosrestaurant.cl/menuairesportenos.pdf" target="_blank"
                     class="bg-gray-200 hover:bg-gray-300 py-3 px-12 mx-auto my-8 inline-block text-xl uppercase rounded-sm">Ver Menú</a>
             </div>
         </div>
