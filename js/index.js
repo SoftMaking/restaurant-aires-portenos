@@ -63,7 +63,7 @@ $(function () {
     $(".image").slice(0, 4).show();
     $("body").on('click touchstart', '.load-more', function (e) {
         e.preventDefault();
-        $(".image:hidden").slice(0, 24).slideDown("slow");;
+        $(".image:hidden").slice(0, 20).slideDown("slow");;
         if ($(".image:hidden").length == 0) {
             $(".load-more").hide();
             $(".load-less").show();
@@ -74,8 +74,8 @@ $(function () {
     });
     $("body").on('click touchstart', '.load-less', function (e) {
         e.preventDefault();
-        $(".image").slice(4, 28).slideUp("slow");
-        if ($(".image").length == 28) {
+        $(".image").slice(4, 24).slideUp("slow");
+        if ($(".image").length == 24) {
             $(".load-less").hide();
             $(".load-more").show();
         }

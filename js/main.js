@@ -336,12 +336,6 @@ Vue.component('gallery-section', {
                         <a href="assets/gallery/IMG_(1).jpg" class="image">
                             <img loading="lazy" src="assets/gallery/IMG_(1).jpg" alt="Imagen 1">
                         </a>
-                        <a href="assets/gallery/IMG_(2).jpg" class="image">
-                            <img loading="lazy" src="assets/gallery/IMG_(2).jpg" alt="Imagen 2">
-                        </a>
-                        <a href="assets/gallery/IMG_(3).jpg" class="image">
-                            <img loading="lazy" src="assets/gallery/IMG_(3).jpg" alt="Imagen 3">
-                        </a>
                         <a href="assets/gallery/IMG_(4).jpg" class="image">
                             <img loading="lazy" src="assets/gallery/IMG_(4).jpg" alt="Imagen 4">
                         </a>
@@ -372,12 +366,14 @@ Vue.component('gallery-section', {
                         <a href="assets/gallery/IMG_(15).jpg" class="image">
                             <img loading="lazy" src="assets/gallery/IMG_(15).jpg" alt="Imagen 15">
                         </a>
+                    <!--
                         <a href="assets/gallery/IMG_(16).jpg" class="image">
                             <img loading="lazy" src="assets/gallery/IMG_(16).jpg" alt="Imagen 16">
                         </a>
                         <a href="assets/gallery/IMG_(17).jpg" class="image">
                             <img loading="lazy" src="assets/gallery/IMG_(17).jpg" alt="Imagen 17">
                         </a>
+                    -->
                         <a href="assets/gallery/IMG_(18).jpg" class="image">
                             <img loading="lazy" src="assets/gallery/IMG_(18).jpg" alt="Imagen 18">
                         </a>
